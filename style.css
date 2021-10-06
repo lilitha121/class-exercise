@@ -1,0 +1,132 @@
+/*
+##########################
+###### NAV BAR ###########
+##########################
+*/
+
+nav{
+    border: 1px solid hotpink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /*
+  HOME
+  */
+
+  #hmpgbg{
+    font-family: sans;
+    background-image: url(./images/bg.jpg);    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    /* border: 1px solid red; */
+    /* height: 950px;s */
+}
+#hmpgbg h1, h4{
+    color: white;
+    text-align: center;
+}
+.mybox{
+    text-align: center;
+    margin-top: 350px;
+}
+
+
+  .btn{
+      background-color: hotpink;
+      border: 1px solid white;
+      padding: 20px;
+  }
+  .mybox a{
+      color: white;
+      text-decoration: none;
+  }
+  .mybox button:hover{
+    cursor: pointer;
+    background-color: black;
+  }
+  p{
+    color: white;
+}
+
+  /*
+  ABOUT HTML
+  */
+
+  .headings{
+      text-align: center;
+      color: white;
+
+  }
+
+  div h2, h3{
+    color: white;
+  }
+
+  .box{
+      margin: 80px 0 0 20px;
+  }
+
+  .box h2{
+      text-decoration: underline;
+  }
+
+  .box img{
+      border-radius: 6px;
+  }
+
+  span{
+      font-style: italic;
+      font-weight: bold;
+  }
+
+  /*
+  CSS
+  */
+
+  .cssstuff img{
+    width: 1500px;
+  }
+
+  .boxx{
+    margin: 80px 0 0 20px;
+  }
+
+  .boxx img{
+    border-radius: 6px;
+  }
+
+  .boxx h2{
+    text-decoration: underline;
+}
+
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    color: hotpink;
+    margin-top: 300px;
+    font-family: cursive;
+}
